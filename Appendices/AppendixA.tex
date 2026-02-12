@@ -1,0 +1,127 @@
+% !TEX root = ../main.tex
+
+%----------------------------------------------------------------------------------------
+% APPENDIX A
+%----------------------------------------------------------------------------------------
+
+\chapter{Project Directory Structure} % Main appendix title
+
+\label{AppendixA} % For referencing this appendix elsewhere, use \ref{AppendixA}
+\label{app:directory}
+
+\begin{small}
+\begin{verbatim}
+.
+|-- data
+|   |-- processed_csv
+|   |   |-- case_level_aggregated.csv
+|   |   |-- combined_wsi_data.csv
+|   |   |-- msi-h.csv
+|   |   |-- msi-h.zip
+|   |   |-- mss_tmb-h.csv
+|   |   |-- mss_tmb-l.csv
+|   |   |-- mss_tmb-l_part1.zip
+|   |   |-- mss_tmb-l_part2.zip
+|   |   |-- processed_csv.zip
+|   |   +-- tmb-h.zip
+|   |-- raw
+|   |   |-- msi-h_image_list.csv
+|   |   |-- mss_tmb-l_image_list.csv
+|   |   +-- tmb_h_image_list.csv
+|   |-- README.md
+|   |-- stad_clinical.csv
+|   +-- ucec_clinical.csv
+|-- hover_net
+|-- hover_next_inference
+|-- ec_env.yml
+|-- notebooks
+|   |-- cluster
+|   |   |-- clustering.py
+|   |   |-- clustering_results
+|   |   +-- logs
+|   |-- exploratory
+|   |   |-- exploratory_analysis.ipynb
+|   |   +-- images
+|   |-- machine_learning
+|   |   |-- configs
+|   |   |-- data
+|   |   |-- logs
+|   |   |-- ml_results
+|   |   |-- README.md
+|   |   +-- scripts
+|   |-- README.MD
+|   +-- statistical_analysis
+|       |-- images
+|       |-- statistical_analysis.ipynb
+|       +-- statistical_tests
+|-- README.md
+|-- results
+|   |-- hovernet
+|   |   |-- msi-h
+|   |   +-- tmb_h
+|   +-- hovernext
+|       |-- msi-h
+|       +-- mss_tmb-l
+|-- scripts
+|   |-- clustering
+|   |   +-- run_clustering.sh
+|   |-- create_links
+|   |   |-- submit_filtered_img.sh
+|   |   |-- submit_hovernet.sh
+|   |   +-- submit_linked_img.sh
+|   |-- inference
+|   |   |-- hovernet_a100.sh
+|   |   |-- hovernet_l40s.sh
+|   |   |-- hovernext_a100.sh
+|   |   |-- hovernext_l40s.sh
+|   |   +-- README.md
+|   |-- machine_learning
+|   |   |-- evaluation.sh
+|   |   |-- learning_curves.sh
+|   |   |-- README.md
+|   |   |-- run_pca.sh
+|   |   +-- train.sh
+|   |-- preprocessing
+|   |   |-- combine_csv.sh
+|   |   |-- merge_csv.sh
+|   |   +-- split_csv.sh
+|   |-- processing
+|   |   |-- process_heatmap_csv.sh
+|   |   |-- process_heatmap.sh
+|   |   +-- README.md
+|   |-- README.MD
+|   |-- utils
+|   |   |-- check_unprocessed_hovernet.sh
+|   |   |-- check_unprocessed_hovernext.sh
+|   |   +-- zip_folders.sh
+|   +-- visualization
+|       |-- visualize_hovernet_tiles.sh
+|       +-- visualize_hovernext_tiles.sh
++-- src
+    |-- dataset_processing
+    |   |-- combine_tiles_csv.py
+    |   |-- create_image_list.py
+    |   |-- csv_operations.py
+    |   |-- __init__.py
+    |   +-- README.md
+    |-- image_processing
+    |   |-- constants.py
+    |   |-- export.py
+    |   |-- heatmap.py
+    |   |-- __init__.py
+    |   |-- io_utils.py
+    |   |-- main.py
+    |   |-- __pycache__
+    |   |-- README.md
+    |   |-- tile_analysis.py
+    |   |-- visualize_multiple_tiles.py
+    |   |-- visualize_tile_hovernet.py
+    |   +-- visualize_tile_hovernext.py
+    |-- __init__.py
+    +-- README.MD
+
+40 directories, 67 files
+\end{verbatim}
+\end{small}
+
+

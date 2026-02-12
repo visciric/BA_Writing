@@ -1,0 +1,20 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Abstract}{}{chapter*.1}%
+\contentsline {chapter}{Zusammenfassung}{}{chapter*.2}%
+\contentsline {chapter}{Acknowledgements}{}{chapter*.3}%
+\contentsline {chapter}{List of Abbreviations}{}{chapter*.5}%
+\contentsline {chapter}{\numberline {1}Chapter 1}{1}{chapter.7}%
+\contentsline {section}{\numberline {1.1}Here starts your journey}{1}{section.8}%
+\contentsline {subsection}{\numberline {1.1.1}show them!}{1}{subsection.9}%
+\contentsline {chapter}{\numberline {2}Chapter 2}{2}{chapter.10}%
+\contentsline {section}{\numberline {2.1}}{2}{section.11}%
+\contentsline {subsection}{\numberline {2.1.1}}{2}{subsection.12}%
+\contentsline {chapter}{\numberline {3}Chapter 3}{3}{chapter.13}%
+\contentsline {section}{\numberline {3.1}}{3}{section.14}%
+\contentsline {chapter}{\numberline {4}Chapter 4}{4}{chapter.15}%
+\contentsline {chapter}{\numberline {5}Conclusion}{5}{chapter.16}%
+\contentsline {chapter}{Overview of Applied AI Tools}{6}{chapter*.17}%
+\contentsline {chapter}{Code Availability and Repository Structure}{7}{chapter*.18}%
+\contentsline {chapter}{List of Figures}{}{chapter*.19}%
+\contentsline {chapter}{List of Tables}{}{chapter*.20}%
+\contentsline {chapter}{\numberline {A}Project Directory Structure}{}{appendix.21}%

@@ -1,0 +1,84 @@
+% Indicate the main file. Must go at the beginning of the file.
+% !TEX root = ../main.tex
+
+%----------------------------------------------------------------------------------------
+% CHAPTER TEMPLATE
+%----------------------------------------------------------------------------------------
+
+
+\chapter*{Code Availability and Repository Structure} % Main chapter title
+\addcontentsline{toc}{chapter}{Code Availability and Repository Structure}
+
+
+All code used for data preprocessing, model inference, machine learning, and statistical analysis is available in the following public repository:
+
+\textbf{Code Repository:} \href{https://github.com/acg-team/tumor-segmentation-ucec-stad/tree/master}{github.com/acg-team/tumor-segmentation-ucec-stad}
+
+The repository is organized to facilitate reproducibility, with distinct directories for data handling, model inference, and downstream analysis.
+
+\textbf{\Large Repository Structure}
+
+The project structure is outlined below, highlighting the core components required to reproduce the study:
+
+
+\begin{small}
+\begin{verbatim}
+tumor-segmentation-ucec-stad/
+|-- data/
+|   |-- raw/                  # Image lists and clinical metadata
+|   +-- processed_csv/        # Aggregated cell-level data
+|-- hover_net/                # Original HoVer-Net model implementation
+|-- hover_next_inference/     # Optimized HoVer-Next inference pipeline
+|-- notebooks/
+|   |-- exploratory/          # Descriptive statistics
+|   |-- machine_learning/     # Machine Learning pipeline
+|   |-- statistical_analysis/ # Statistical tests
+|   +-- cluster/              # Clustering algorithms and results
+|-- scripts/
+|   |-- inference/            # HPC batch scripts for GPU inference
+|   |-- machine_learning/     # Scripts for PCA, training, evaluation
+|   |-- preprocessing/        # CSV splitting and merging utilities
+|   |-- processing/           # Heatmap generation tools
+|   +-- visualization/        # Tile visualization scripts
++-- src/
+    |-- dataset_processing/   # Tile-level data aggregation
+    +-- image_processing/     # Heatmap generation and IO
+\end{verbatim}
+\end{small}
+
+
+\textbf{\Large Key Components}
+
+\textbf{Model Inference}
+
+Two deep learning models were utilized for nuclei segmentation and classification:
+\begin{itemize}
+    \item \textbf{HoVer-Net:} The original architecture used for baseline segmentation.
+    \item \textbf{HoVer-Next:} A lightweight, optimized variant used to accelerate processing on large Whole Slide Images (WSIs). The inference logic and environment setup are located in the \texttt{hover\_next\_inference/} directory.
+\end{itemize}
+
+\textbf{Data Processing Pipeline}
+
+The \texttt{src/} and \texttt{scripts/} directories contain the complete workflow for handling WSI data:
+\begin{itemize}
+    \item \textbf{Preprocessing:} Scripts to filter images by molecular subtype (e.g., \texttt{filter\_tmb\_h.py}) and manage large CSV datasets. 
+    \item \textbf{Heatmap Generation:} Tools to visualize cellular density and distribution directly on WSI thumbnails (e.g., \texttt{process\_heatmap.sh}).
+    \item \textbf{Data Aggregation:} The \texttt{combine\_tiles\_csv.py} script aggregates millions of individual cell detections into case-level summaries for statistical analysis.
+\end{itemize}
+
+\textbf{Machine Learning \& Analysis}
+
+The downstream analysis is centralized in the \texttt{notebooks/} directory:
+\begin{itemize}
+    \item \textbf{Exploratory Analysis:} Notebooks for descriptive statistics and initial data validation.
+    \item \textbf{Machine Learning Pipeline:} End-to-end scripts for dimensionality reduction (\texttt{pca\_reduction.py}), model training (\texttt{train\_models.py}), and performance evaluation (\texttt{evaluate.py}).
+    \item \textbf{Statistical Testing:} Jupyter notebooks containing Mann-Whitney U tests, Kruskal-Wallis tests, and correlation matrix generation.
+\end{itemize}
+
+\textbf{\Large Environment and Dependencies}
+
+To ensure reproducibility, all software dependencies are specified in the root environment file:
+\begin{itemize}
+    \item \texttt{hovernet\_env.yml}: Defines the Conda environment, including PyTorch, Scikit-learn, and image processing libraries required to run the pipeline.
+\end{itemize}
+    

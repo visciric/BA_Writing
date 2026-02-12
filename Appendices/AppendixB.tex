@@ -1,0 +1,20 @@
+% !TEX root = ../main.tex
+
+%----------------------------------------------------------------------------------------
+% APPENDIX TEMPLATE
+%----------------------------------------------------------------------------------------
+
+\chapter*{Project Timeline}
+\addcontentsline{toc}{chapter}{Project Timeline}
+\includepdf[
+    pages=-,
+    landscape=true,
+    scale=0.8,         % Shrink it so there is room for the title
+    offset=0 -2cm,     % Move PDF down (X Y coordinates) to make room at the top
+    pagecommand={      % This puts the LaTeX title on the same page
+        \thispagestyle{plain}
+        \chapter*{Project Timeline}
+        \addcontentsline{toc}{chapter}{Project Timeline}
+        \label{app:timeline}
+    }
+]{Appendices/timeline_project_work.pdf}
