@@ -3,18 +3,24 @@
 \contentsline {chapter}{Zusammenfassung}{}{chapter*.2}%
 \contentsline {chapter}{Acknowledgements}{}{chapter*.3}%
 \contentsline {chapter}{List of Abbreviations}{}{chapter*.5}%
-\contentsline {chapter}{\numberline {1}Chapter 1}{1}{chapter.7}%
-\contentsline {section}{\numberline {1.1}Here starts your journey}{1}{section.8}%
-\contentsline {subsection}{\numberline {1.1.1}show them!}{1}{subsection.9}%
-\contentsline {chapter}{\numberline {2}Chapter 2}{2}{chapter.10}%
-\contentsline {section}{\numberline {2.1}}{2}{section.11}%
-\contentsline {subsection}{\numberline {2.1.1}}{2}{subsection.12}%
-\contentsline {chapter}{\numberline {3}Chapter 3}{3}{chapter.13}%
-\contentsline {section}{\numberline {3.1}}{3}{section.14}%
-\contentsline {chapter}{\numberline {4}Chapter 4}{4}{chapter.15}%
-\contentsline {chapter}{\numberline {5}Conclusion}{5}{chapter.16}%
-\contentsline {chapter}{Overview of Applied AI Tools}{6}{chapter*.17}%
-\contentsline {chapter}{Code Availability and Repository Structure}{7}{chapter*.18}%
-\contentsline {chapter}{List of Figures}{}{chapter*.19}%
-\contentsline {chapter}{List of Tables}{}{chapter*.20}%
-\contentsline {chapter}{\numberline {A}Project Directory Structure}{}{appendix.21}%
+\contentsline {chapter}{\numberline {1}Introduction and Theoretical Background}{1}{chapter.7}%
+\contentsline {section}{\numberline {1.1}Somatic SNVs Definition and Relevance}{1}{section.8}%
+\contentsline {section}{\numberline {1.2}Bulk and Single-Cell RNA Sequencing Approaches}{1}{section.9}%
+\contentsline {section}{\numberline {1.3}Smart-seq2 as a Platform for Variant Calling}{1}{section.10}%
+\contentsline {section}{\numberline {1.4}Challenges of SNV Detection from scRNA-seq}{1}{section.11}%
+\contentsline {section}{\numberline {1.5}Variant Calling Tools}{2}{section.12}%
+\contentsline {section}{\numberline {1.6}Dataset and Biological Context move to 2.1}{2}{section.13}%
+\contentsline {section}{\numberline {1.7}Research Question and Objectives }{2}{section.14}%
+\contentsline {subsection}{\numberline {1.7.1}show them!}{2}{subsection.15}%
+\contentsline {chapter}{\numberline {2}Chapter 2}{3}{chapter.16}%
+\contentsline {section}{\numberline {2.1}}{3}{section.17}%
+\contentsline {subsection}{\numberline {2.1.1}}{3}{subsection.18}%
+\contentsline {chapter}{\numberline {3}Chapter 3}{4}{chapter.19}%
+\contentsline {section}{\numberline {3.1}}{4}{section.20}%
+\contentsline {chapter}{\numberline {4}Chapter 4}{5}{chapter.21}%
+\contentsline {chapter}{\numberline {5}Conclusion}{6}{chapter.22}%
+\contentsline {chapter}{Overview of Applied AI Tools}{7}{chapter*.23}%
+\contentsline {chapter}{Code Availability and Repository Structure}{8}{chapter*.24}%
+\contentsline {chapter}{List of Figures}{}{chapter*.25}%
+\contentsline {chapter}{List of Tables}{}{chapter*.26}%
+\contentsline {chapter}{\numberline {A}Project Directory Structure}{}{appendix.27}%

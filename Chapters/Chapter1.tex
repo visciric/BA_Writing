@@ -5,7 +5,7 @@
 % CHAPTER 1
 %----------------------------------------------------------------------------------------
 
-\chapter{Chapter 1} % Main chapter title
+\chapter{Introduction and Theoretical Background} % Main chapter title
 \label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
 %----------------------------------------------------------------------------------------
@@ -18,13 +18,69 @@
 \newcommand{\file}[1]{\texttt{\bfseries#1}}
 \newcommand{\option}[1]{\texttt{\itshape#1}}
 %----------------------------------------------------------------------------------------
-% SECTION 1: BACKGROUND AND MOTIVATION
+% SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Here starts your journey}
+\section{Somatic SNVs Definition and Relevance}
 
-%-----------------------------------
-% SUBSECTION 
-%-----------------------------------
+- What are somatic SNVs and why do they matter? 
+
+- How do somatic mutations accumulate throughout life and what biological processes drive this? 
+
+- What molecular mechanisms generate somatic SNVs? (replication errors)
+
+- What is the difference between germline, somatic, and how are they distinguished computationally?
+
+%----------------------------------------------------------------------------------------
+% SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Bulk and Single-Cell RNA Sequencing Approaches}
+- What does bulk RNA-seq measure, and what are its fundamental limitations for cell-level analysis?
+
+- How does scRNA-seq resolve cell-type heterogeneity that bulk RNA-seq cannot?
+
+- What are the two main scRNA-seq paradigms  droplet-based (10X) vs. plate-based (Smart-seq2)  and how do they differ technically?
+
+%----------------------------------------------------------------------------------------
+% SECTION
+%----------------------------------------------------------------------------------------
+\section{Smart-seq2 as a Platform for Variant Calling}
+- Plate-based (Smart-seq2) vs. droplet-based (10X)  key differences for variant calling
+
+- Why does full-length transcript coverage in Smart-seq2 create an advantage for variant calling that 3′-end methods cannot provide?
+
+- Why is Smart-seq2 an underexplored platform for variant calling compared to 10X?
+
+%----------------------------------------------------------------------------------------
+% SECTION
+%----------------------------------------------------------------------------------------
+\section{Challenges of SNV Detection from scRNA-seq}
+- What is the technical challenge of detecting SNVs from scRNA-seq data?
+
+- What distinguishes single-cell variant calling from bulk variant calling computationally?
+
+- How does the absence of a matched normal sample complicate somatic vs. germline classification?
+
+
+%----------------------------------------------------------------------------------------
+% SECTION
+%----------------------------------------------------------------------------------------
+\section{Variant Calling Tools}
+- What tools were specifically designed for scRNA-seq variant calling (SComatic, Monopogen, cellsnp-lite), and what are their limitations in this context?
+
+- Why did we choose STAR and bcftools? / I Guess it's to early to Answer this questions
+%----------------------------------------------------------------------------------------
+% SECTION
+%----------------------------------------------------------------------------------------
+\section{Dataset and Biological Context move to 2.1}
+%----------------------------------------------------------------------------------------
+% SECTION
+%----------------------------------------------------------------------------------------
+\section{Research Question and Objectives }
+- What is the research question?
+
+- What is the aim of the project?
+
 
 \subsection{show them!}
