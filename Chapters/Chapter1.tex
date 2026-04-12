@@ -23,13 +23,27 @@
 
 \section{Somatic SNVs Definition and Relevance}
 
-- What are somatic SNVs and why do they matter? 
+\section{Somatic SNVs: Definition and Relevance}
 
-- How do somatic mutations accumulate throughout life and what biological processes drive this? 
+Genetic variation is the molecular foundation of biological diversity, adaptation, and disease. 
+At the broadest level, two fundamental classes of genetic variation shape phenotypic diversity and disease susceptibility in any organism: those inherited through the germline, and those acquired somatically during an individual's lifetime.
 
-- What molecular mechanisms generate somatic SNVs? (replication errors)
+\keyword{Germline variants} are present from conception, encoded in every cell of the organism, and passed from parent to offspring through reproduction. Their population frequencies are shaped over generations by evolutionary forces such as natural selection, genetic drift, and recombination, and they underlie a broad spectrum of heritable conditions, from monogenic disorders to complex polygenic disease risk \parencite{YuGeneticvariation2024}.
 
-- What is the difference between germline, somatic, and how are they distinguished computationally?
+\keyword{Somatic mutations}, by contrast, do not follow Mendelian inheritance. 
+They arise during an individual's lifetime in individual somatic cells as a consequence of DNA damage or errors in DNA replication, and are propagated exclusively to the clonal descendants of the founding cell \parencite{YuGeneticvariation2024}. Because they originate in a single cell and spread only through cell division, somatic mutations are present in only a subset of an organism's cells.
+
+Genetic variants can be divided into four principal classes: \keyword{single-nucleotide variants} (SNVs), which are point substitutions at individual genomic positions; short insertions and deletions (\keyword{indels}, $<$50~bp); \keyword{structural variants} (SVs), encompassing large deletions, duplications, inversions, and translocations; and large \keyword{chromosomal abnormalities}, such as whole-chromosome gains or losses \parencite{Xureviewsomatic2018,YuGeneticvariation2024}.
+Among these, SNVs are the most abundant and best characterised class. The most common type of SNV, the single-nucleotide polymorphism (SNP), refers to positions at which heritable variation occurs at appreciable frequency in a population; the term SNV is broader, encompassing both germline and somatic single-base substitutions \parencite{ZouSignificanceSingleNucleotide2020}.
+
+This distinction has a direct technical consequence: because a somatic mutation is present in only a fraction of cells, it appears in sequencing data at a low \keyword{variant allele fraction} (VAF). 
+This low VAF is both the defining hallmark of somatic mutations and the core technical challenge in theri detection, as sequecing noice and artefacts can occur at comparable frequencies, making confident discrimination between signal and error non-trivial \parencite{Xureviewsomatic2018, MuyasDenovodetection2024}.
+
+%- How do somatic mutations accumulate throughout life and what biological processes drive this?
+
+%- What molecular mechanisms generate somatic SNVs? (replication errors)
+
+%- What is the difference between germline, somatic, and how are they distinguished computationally?
 
 %----------------------------------------------------------------------------------------
 % SECTION
