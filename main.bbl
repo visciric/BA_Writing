@@ -1,0 +1,781 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{YuGeneticvariation2024}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=8ec39478895b870cf5f4b1d7899fa98c}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Zhi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=c040f53b830c5822c562e948a6e02828}{%
+           family={Coorens},
+           familyi={C\bibinitperiod},
+           given={Tim\bibnamedelimb H.\bibnamedelimi H.},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=cf22815f53a3d632eb07d7bbd932db2d}{%
+           family={Uddin},
+           familyi={U\bibinitperiod},
+           given={Md\bibnamedelima Mesbah},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f52eda76142265a6ddc55f9b355b8f3b}{%
+           family={Ardlie},
+           familyi={A\bibinitperiod},
+           given={Kristin\bibnamedelima G.},
+           giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=11a56b1a362c7b6883e864e8c9bf69ad}{%
+           family={Lennon},
+           familyi={L\bibinitperiod},
+           given={Niall},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0cd42d831b76a3a3dd8fba30775be436}{%
+           family={Natarajan},
+           familyi={N\bibinitperiod},
+           given={Pradeep},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{e19b7ed2814e1c4dc2e7f59d38fad486}
+      \strng{fullhash}{bfffeab39817ba7cdcb5d6ef5fef71eb}
+      \strng{fullhashraw}{bfffeab39817ba7cdcb5d6ef5fef71eb}
+      \strng{bibnamehash}{e19b7ed2814e1c4dc2e7f59d38fad486}
+      \strng{authorbibnamehash}{e19b7ed2814e1c4dc2e7f59d38fad486}
+      \strng{authornamehash}{e19b7ed2814e1c4dc2e7f59d38fad486}
+      \strng{authorfullhash}{bfffeab39817ba7cdcb5d6ef5fef71eb}
+      \strng{authorfullhashraw}{bfffeab39817ba7cdcb5d6ef5fef71eb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Germline variation and somatic mutation are intricately connected and together shape human traits and disease risks. Germline variants are present from conception, but they vary between individuals and accumulate over generations. By contrast, somatic mutations accumulate throughout life in a mosaic manner within an individual due to intrinsic and extrinsic sources of mutations and selection pressures acting on cells. Recent advancements, such as improved detection methods and increased resources for association studies, have drastically expanded our ability to investigate germline and somatic genetic variation and compare underlying mutational processes. A~better understanding of the similarities and differences in the types, rates and patterns of germline and somatic variants, as well as their interplay, will help elucidate the mechanisms underlying their distinct yet interlinked roles in human health and biology.}
+      \field{issn}{1471-0064}
+      \field{journaltitle}{Nature Reviews Genetics}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{8}
+      \field{shortjournal}{Nat Rev Genet}
+      \field{title}{Genetic Variation across and within Individuals}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{25}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{548\bibrangedash 562}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1038/s41576-024-00709-x
+      \endverb
+      \verb{file}
+      \verb C:\Users\ricca\Zotero\storage\S39D5ZI2\Yu et al. - 2024 - Genetic variation across and within individuals.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41576-024-00709-x
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41576-024-00709-x
+      \endverb
+      \keyw{DNA sequencing,Genetic variation}
+    \endentry
+    \entry{Xureviewsomatic2018}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=0fd89a7fb20b3d99368ee682085e4436}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Chang},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{0fd89a7fb20b3d99368ee682085e4436}
+      \strng{fullhash}{0fd89a7fb20b3d99368ee682085e4436}
+      \strng{fullhashraw}{0fd89a7fb20b3d99368ee682085e4436}
+      \strng{bibnamehash}{0fd89a7fb20b3d99368ee682085e4436}
+      \strng{authorbibnamehash}{0fd89a7fb20b3d99368ee682085e4436}
+      \strng{authornamehash}{0fd89a7fb20b3d99368ee682085e4436}
+      \strng{authorfullhash}{0fd89a7fb20b3d99368ee682085e4436}
+      \strng{authorfullhashraw}{0fd89a7fb20b3d99368ee682085e4436}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Detection of somatic mutations holds great potential in cancer treatment and has been a very active research field in the past few years, especially since the breakthrough of the next-generation sequencing technology. A collection of variant calling pipelines have been developed with different underlying models, filters, input data requirements, and targeted applications. This review aims to enumerate these unique features of the state-of-the-art variant callers, in the hope to provide a practical guide for selecting the appropriate pipeline for specific applications. We will focus on the detection of somatic single nucleotide variants, ranging from traditional variant callers based on whole genome or exome sequencing of paired tumor-normal samples to recent low-frequency variant callers designed for targeted sequencing protocols with unique molecular identifiers. The variant callers have been extensively benchmarked with inconsistent performances across these studies. We will review the reference materials, datasets, and performance metrics that have been used in the benchmarking studies. In the end, we will discuss emerging trends and future directions of the variant calling algorithms.}
+      \field{day}{6}
+      \field{eprinttype}{pubmed}
+      \field{issn}{2001-0370}
+      \field{journaltitle}{Computational and Structural Biotechnology Journal}
+      \field{month}{2}
+      \field{shortjournal}{Comput Struct Biotechnol J}
+      \field{title}{A Review of Somatic Single Nucleotide Variant Calling Algorithms for Next-Generation Sequencing Data}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{16}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{15\bibrangedash 24}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.csbj.2018.01.003
+      \endverb
+      \verb{eprint}
+      \verb 29552334
+      \endverb
+      \verb{file}
+      \verb C:\Users\ricca\Zotero\storage\TAEXNKWU\Xu - 2018 - A review of somatic single nucleotide variant calling algorithms for next-generation sequencing data.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC5852328/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC5852328/
+      \endverb
+    \endentry
+    \entry{ZouSignificanceSingleNucleotide2020}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=7a09c796581c866681af3f41b10ef90e}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Hecun},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f38ccbf97accde9ca234ec5e25b9a1b5}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Lan-Xiang},
+           giveni={L\bibinithyphendelim X\bibinitperiod}}}%
+        {{hash=51cc06fa85b5153bfa3ec831a100c6be}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Lihong},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f26699f99163e55584d21439743b7020}{%
+           family={Shang},
+           familyi={S\bibinitperiod},
+           given={Fei-Fei},
+           giveni={F\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=e1d6a098f08a3d62be8f33b81285ee37}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Hong-Hao},
+           giveni={H\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{f41ba7c9e3d7472dcd20bd8d8c810262}
+      \strng{fullhash}{9e82b5b22db6ecbe4564f658b44b6353}
+      \strng{fullhashraw}{9e82b5b22db6ecbe4564f658b44b6353}
+      \strng{bibnamehash}{f41ba7c9e3d7472dcd20bd8d8c810262}
+      \strng{authorbibnamehash}{f41ba7c9e3d7472dcd20bd8d8c810262}
+      \strng{authornamehash}{f41ba7c9e3d7472dcd20bd8d8c810262}
+      \strng{authorfullhash}{9e82b5b22db6ecbe4564f658b44b6353}
+      \strng{authorfullhashraw}{9e82b5b22db6ecbe4564f658b44b6353}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Single-nucleotide variants (SNVs) are the most common genetic variants and universally present in the human genome. Genome-wide association studies (GWASs) have identified a great number of disease or trait-associated variants, many of which are located in non-coding regions. Long intergenic non-protein coding RNAs (lincRNAs) are the major subtype of long non-coding RNAs; lincRNAs play crucial roles in various disorders and cellular models via multiple mechanisms. With rapid growth in the number of the identified lincRNAs and genetic variants, there is great demand for an investigation of SNVs in lincRNAs. Hence, in this article, we mainly summarize the significant role of SNVs within human lincRNA regions. Some pivotal variants may serve as risk factors for the development of various disorders, especially cancer. They may also act as important regulatory signatures involved in the modulation of lincRNAs in a tissue- or disorder-specific manner. An increasing number of researches indicate that lincRNA variants would potentially provide additional options for genetic testing and disease risk assessment in the personalized medicine era.}
+      \field{day}{25}
+      \field{eprinttype}{pubmed}
+      \field{issn}{2296-634X}
+      \field{journaltitle}{Frontiers in Cell and Developmental Biology}
+      \field{month}{5}
+      \field{shortjournal}{Front Cell Dev Biol}
+      \field{title}{Significance of {{Single-Nucleotide Variants}} in {{Long Intergenic Non-protein Coding RNAs}}}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{347}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fcell.2020.00347
+      \endverb
+      \verb{eprint}
+      \verb 32523949
+      \endverb
+      \verb{file}
+      \verb C:\Users\ricca\Zotero\storage\WAV5AJQ5\Zou et al. - 2020 - Significance of Single-Nucleotide Variants in Long Intergenic Non-protein Coding RNAs.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC7261909/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC7261909/
+      \endverb
+    \endentry
+    \entry{ParkPOLEproofreading2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=45390ed926c41ef9d02ddaa6e254d784}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Vivian\bibnamedelima S.},
+           giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=503747e5de9193e3a6d94a2df0f27651}{%
+           family={Pursell},
+           familyi={P\bibinitperiod},
+           given={Zachary\bibnamedelima F.},
+           giveni={Z\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{22656790aba325d17e59d3bfe4f561e0}
+      \strng{fullhash}{22656790aba325d17e59d3bfe4f561e0}
+      \strng{fullhashraw}{22656790aba325d17e59d3bfe4f561e0}
+      \strng{bibnamehash}{22656790aba325d17e59d3bfe4f561e0}
+      \strng{authorbibnamehash}{22656790aba325d17e59d3bfe4f561e0}
+      \strng{authornamehash}{22656790aba325d17e59d3bfe4f561e0}
+      \strng{authorfullhash}{22656790aba325d17e59d3bfe4f561e0}
+      \strng{authorfullhashraw}{22656790aba325d17e59d3bfe4f561e0}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{DNA polymerases are uniquely poised to contribute to the elevated mutation burdens seen in many human tumors. These mutations can arise through a number of different polymerase-dependent mechanisms, including intrinsic errors made using template DNA and precursor dNTPs free from chemical modifications, misinsertion events opposite chemically damaged template DNA or insertion events using modified nucleotides. While specific DNA repair polymerases have been known to contribute to tumorigenesis, the role of replication polymerases in mutagenesis in human disease has come into sharp focus over the last decade. This review describes how mutations in these replication DNA polymerases help to drive mutagenesis and tumor development, with particular attention to DNA polymerase epsilon. Recent studies using cancer genome sequencing, mutational signature analyses, yeast and mouse models, and the influence of mismatch repair on tumors with DNA polymerase mutations are discussed.}
+      \field{issn}{15687864}
+      \field{journaltitle}{DNA Repair}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{shortjournal}{DNA Repair}
+      \field{shorttitle}{{{POLE}} Proofreading Defects}
+      \field{title}{{{POLE}} Proofreading Defects: {{Contributions}} to Mutagenesis and Cancer}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{76}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{50\bibrangedash 59}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.dnarep.2019.02.007
+      \endverb
+      \verb{file}
+      \verb C:\Users\ricca\Zotero\storage\AJ7V42UB\Park und Pursell - 2019 - POLE proofreading defects Contributions to mutagenesis and cancer.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1568786418303185
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1568786418303185
+      \endverb
+    \endentry
+    \entry{LiExploringAdditional2020}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=f86dc79f49b1cf429b2e3de42c3525f7}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yunjin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=64a749992cc9a999d36d4a6be9302e00}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Qiyue},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=135d043daf3f6ce07604c97d7833f3a4}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Duojiao},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6ea4e2d900d2ddff7246177cf89c7ed7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Geng},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{89bfd5f97f7bdfb32a6b4cd0981f7088}
+      \strng{fullhash}{312632839bd62c37ae4b5558d59b0070}
+      \strng{fullhashraw}{312632839bd62c37ae4b5558d59b0070}
+      \strng{bibnamehash}{89bfd5f97f7bdfb32a6b4cd0981f7088}
+      \strng{authorbibnamehash}{89bfd5f97f7bdfb32a6b4cd0981f7088}
+      \strng{authornamehash}{89bfd5f97f7bdfb32a6b4cd0981f7088}
+      \strng{authorfullhash}{312632839bd62c37ae4b5558d59b0070}
+      \strng{authorfullhashraw}{312632839bd62c37ae4b5558d59b0070}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Single-cell RNA-seq (scRNA-seq) technologies are broadly applied to dissect the cellular heterogeneity and expression dynamics, providing unprecedented insights into single-cell biology. Most of the scRNA-seq studies mainly focused on the dissection of cell types/states, developmental trajectory, gene regulatory network, and alternative splicing. However, besides these routine analyses, many other valuable scRNA-seq investigations can be conducted. Here, we first review cell-to-cell communication exploration, RNA velocity inference, identification of large-scale copy number variations and single nucleotide changes, and chromatin accessibility prediction based on single-cell transcriptomics data. Next, we discuss the identification of novel genes/transcripts through transcriptome reconstruction approaches, as well as the profiling of long non-coding RNAs and circular RNAs. Additionally, we survey the integration of single-cell and bulk RNA-seq datasets for deconvoluting the cell composition of large-scale bulk samples and linking single-cell signatures to patient outcomes. These additional analyses could largely facilitate corresponding basic science and clinical applications.}
+      \field{day}{1}
+      \field{eprinttype}{pubmed}
+      \field{issn}{2296-634X}
+      \field{journaltitle}{Frontiers in Cell and Developmental Biology}
+      \field{month}{12}
+      \field{shortjournal}{Front Cell Dev Biol}
+      \field{title}{Exploring {{Additional Valuable Information From Single-Cell RNA-Seq Data}}}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{593007}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fcell.2020.593007
+      \endverb
+      \verb{eprint}
+      \verb 33335900
+      \endverb
+      \verb{file}
+      \verb C:\Users\ricca\Zotero\storage\Z49UQJVV\Li et al. - 2020 - Exploring Additional Valuable Information From Single-Cell RNA-Seq Data.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC7736616/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC7736616/
+      \endverb
+    \endentry
+    \entry{Libulksinglecell2021}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=bf9ce722302215d12588653237b5ea04}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xinmin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=1f6187ed3930f4b5bb209884439a1bc8}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Cun-Yu},
+           giveni={C\bibinithyphendelim Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{4041a1d41809e114a21552febc9b990f}
+      \strng{fullhash}{4041a1d41809e114a21552febc9b990f}
+      \strng{fullhashraw}{4041a1d41809e114a21552febc9b990f}
+      \strng{bibnamehash}{4041a1d41809e114a21552febc9b990f}
+      \strng{authorbibnamehash}{4041a1d41809e114a21552febc9b990f}
+      \strng{authornamehash}{4041a1d41809e114a21552febc9b990f}
+      \strng{authorfullhash}{4041a1d41809e114a21552febc9b990f}
+      \strng{authorfullhashraw}{4041a1d41809e114a21552febc9b990f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{RNA sequencing (RNAseq) can reveal gene fusions, splicing variants, mutations/indels in addition to differential gene expression, thus providing a more complete genetic picture than DNA sequencing. This most widely used technology in genomics tool box has evolved from classic bulk RNA sequencing (RNAseq), popular single cell RNA sequencing (scRNAseq) to newly emerged spatial RNA sequencing (spRNAseq). Bulk RNAseq studies average global gene expression, scRNAseq investigates single cell RNA biology up to 20,000 individual cells simultaneously, while spRNAseq has ability to dissect RNA activities spatially, representing next generation of RNA sequencing. This article highlights these technologies, characteristic features and suitable applications in precision oncology.}
+      \field{day}{15}
+      \field{issn}{2049-3169}
+      \field{journaltitle}{International Journal of Oral Science}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{1}
+      \field{shortjournal}{Int J Oral Sci}
+      \field{title}{From Bulk, Single-Cell to Spatial {{RNA}} Sequencing}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{13}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{36}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41368-021-00146-0
+      \endverb
+      \verb{file}
+      \verb C:\Users\ricca\Zotero\storage\IG3KIVHR\Li und Wang - 2021 - From bulk, single-cell to spatial RNA sequencing.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41368-021-00146-0
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41368-021-00146-0
+      \endverb
+      \keyw{Genome informatics,RNA sequencing}
+    \endentry
+    \entry{LiuSystematiccomparative2019}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=9ec9abacdbf29d322710928113fded86}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Fenglin},
+           giveni={F\bibinitperiod}}}%
+        {{hash=9af03dc3de9564c69ac3b85892ee8644}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yuanyuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f4a4cbf770add19c206827116c68732e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=5d480ac0e241b126ef61cc03b082537a}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ziyi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=e82a1dd887cf5dc39bbb89a8d3af5edf}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Qiao},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=02df070c968ef0de6302b489a09ea83e}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Ranran},
+           giveni={R\bibinitperiod}}}%
+        {{hash=18323a5fbb7011897918f7f1483e05f1}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zemin},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{8dbf6bdf947cbf22b2d56c674212088c}
+      \strng{fullhash}{831dc8155f1637059c96c74d0d7841e2}
+      \strng{fullhashraw}{831dc8155f1637059c96c74d0d7841e2}
+      \strng{bibnamehash}{8dbf6bdf947cbf22b2d56c674212088c}
+      \strng{authorbibnamehash}{8dbf6bdf947cbf22b2d56c674212088c}
+      \strng{authornamehash}{8dbf6bdf947cbf22b2d56c674212088c}
+      \strng{authorfullhash}{831dc8155f1637059c96c74d0d7841e2}
+      \strng{authorfullhashraw}{831dc8155f1637059c96c74d0d7841e2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Systematic interrogation of single-nucleotide variants (SNVs) is one of the most promising approaches to delineate the cellular heterogeneity and phylogenetic relationships at the single-cell level. While SNV detection from abundant single-cell RNA sequencing (scRNA-seq) data is applicable and cost-effective in identifying expressed variants, inferring sub-clones, and deciphering genotype-phenotype linkages, there is a lack of computational methods specifically developed for SNV calling in scRNA-seq. Although variant callers for bulk RNA-seq have been sporadically used in scRNA-seq, the performances of different tools have not been assessed.}
+      \field{day}{19}
+      \field{issn}{1474-760X}
+      \field{journaltitle}{Genome Biology}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{1}
+      \field{shortjournal}{Genome Biol}
+      \field{title}{Systematic Comparative Analysis of Single-Nucleotide Variant Detection Methods from Single-Cell {{RNA}} Sequencing Data}
+      \field{urlday}{26}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{volume}{20}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{242}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s13059-019-1863-4
+      \endverb
+      \verb{file}
+      \verb C:\Users\ricca\Zotero\storage\9T46CSXL\Liu et al. - 2019 - Systematic comparative analysis of single-nucleotide variant detection methods from single-cell RNA.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/s13059-019-1863-4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/s13059-019-1863-4
+      \endverb
+      \keyw{✅,⭐,Benchmarking,Single-cell RNA sequencing,Single-nucleotide variant detection,Somatic mutations}
+    \endentry
+    \entry{PicelFulllengthRNAseq2014}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=e48a1b7abe52ebfcaf93adc5040a0934}{%
+           family={Picelli},
+           familyi={P\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e961d32e58ca64f8907a4f94dbed7653}{%
+           family={Faridani},
+           familyi={F\bibinitperiod},
+           given={Omid},
+           giveni={O\bibinitperiod}}}%
+        {{hash=0d97ccd8eec2aa3e9a1904ad0b7f3b25}{%
+           family={Björklund},
+           familyi={B\bibinitperiod},
+           given={Asa},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cdcf823766d5c48c59710d2c3ee5984b}{%
+           family={Winberg},
+           familyi={W\bibinitperiod},
+           given={Gosta},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7f368acefa7e1f84dbecbed72993cd13}{%
+           family={Sagasser},
+           familyi={S\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ef621127635320f220b1f2f0514c7297}{%
+           family={Sandberg},
+           familyi={S\bibinitperiod},
+           given={Rickard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f70d1410f3c86f6b348f49e2b61d6d6f}
+      \strng{fullhash}{f9bc915c089a64e0d0ca9f4549c811bd}
+      \strng{fullhashraw}{f9bc915c089a64e0d0ca9f4549c811bd}
+      \strng{bibnamehash}{f70d1410f3c86f6b348f49e2b61d6d6f}
+      \strng{authorbibnamehash}{f70d1410f3c86f6b348f49e2b61d6d6f}
+      \strng{authornamehash}{f70d1410f3c86f6b348f49e2b61d6d6f}
+      \strng{authorfullhash}{f9bc915c089a64e0d0ca9f4549c811bd}
+      \strng{authorfullhashraw}{f9bc915c089a64e0d0ca9f4549c811bd}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Emerging methods for the accurate quantification of gene expression in individual cells hold promise for revealing the extent, function and origins of cell-to-cell variability. Different high-throughput methods for single-cell RNA-seq have been introduced that vary in coverage, sensitivity and multiplexing ability. We recently introduced Smart-seq for transcriptome analysis from single cells, and we subsequently optimized the method for improved sensitivity, accuracy and full-length coverage across transcripts. Here we present a detailed protocol for Smart-seq2 that allows the generation of full-length cDNA and sequencing libraries by using standard reagents. The entire protocol takes ∼2 d from cell picking to having a final library ready for sequencing; sequencing will require an additional 1-3 d depending on the strategy and sequencer. The current limitations are the lack of strand specificity and the inability to detect nonpolyadenylated (polyA(-)) RNA.}
+      \field{day}{2}
+      \field{journaltitle}{Nature protocols}
+      \field{month}{1}
+      \field{shortjournal}{Nature protocols}
+      \field{title}{Full-Length {{RNA-seq}} from Single Cells Using {{Smart-seq2}}}
+      \field{volume}{9}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{171\bibrangedash 181}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1038/nprot.2014.006
+      \endverb
+      \verb{file}
+      \verb C:\Users\ricca\Zotero\storage\7R2GTXWM\Picelli et al. - 2014 - Full-length RNA-seq from single cells using Smart-seq2.pdf
+      \endverb
+    \endentry
+    \entry{WangDirectComparative2021}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=351f0af5b69ecd37e0b3b2f0248b5350}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiliang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=497614cbb2fa6d428b0e1fc8e3b87024}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Yao},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c5087171200b62829058cdd54f719eeb}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Qiming},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=6fbdc3accc895b9acb6290f71ee77c94}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Xianwen},
+           giveni={X\bibinitperiod}}}%
+        {{hash=18323a5fbb7011897918f7f1483e05f1}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zemin},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{e3cd43e1bcd8c835c49f394bace28b30}
+      \strng{fullhash}{24f59db4876b731d832628935c355ac3}
+      \strng{fullhashraw}{24f59db4876b731d832628935c355ac3}
+      \strng{bibnamehash}{e3cd43e1bcd8c835c49f394bace28b30}
+      \strng{authorbibnamehash}{e3cd43e1bcd8c835c49f394bace28b30}
+      \strng{authornamehash}{e3cd43e1bcd8c835c49f394bace28b30}
+      \strng{authorfullhash}{24f59db4876b731d832628935c355ac3}
+      \strng{authorfullhashraw}{24f59db4876b731d832628935c355ac3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Single-cell RNA sequencing (scRNA-seq) is generally used for profiling transcriptome of individual cells. The droplet-based 10X Genomics Chromium (10X) approach and the plate-based Smart-seq2 full-length method are two frequently used scRNA-seq platforms, yet there are only a few thorough and systematic comparisons of their advantages and limitations. Here, by directly comparing the scRNA-seq data generated by these two platforms from the same samples of CD45− cells, we systematically evaluated their features using a wide spectrum of analyses. Smart-seq2 detected more genes in a cell, especially low abundance transcripts as well as alternatively spliced transcripts, but captured higher proportion of mitochondrial genes. The composite of Smart-seq2 data also resembled bulk RNA-seq data more. For 10X-based data, we observed higher noise for mRNAs with low expression levels. Approximately 10\%−30\% of all detected transcripts by both platforms were from non-coding genes, with long non-coding RNAs (lncRNAs) accounting for a higher proportion in 10X. 10X-based data displayed more severe dropout problem, especially for genes with lower expression levels. However, 10X-data can detect rare cell types given its ability to cover a large number of cells. In addition, each platform detected distinct groups of differentially expressed genes between cell clusters, indicating the different characteristics of these technologies. Our study promotes better understanding of these two platforms and offers the basis for an informed choice of these widely used technologies.}
+      \field{day}{1}
+      \field{issn}{1672-0229}
+      \field{journaltitle}{Genomics, Proteomics \& Bioinformatics}
+      \field{month}{4}
+      \field{number}{2}
+      \field{series}{Single-Cell {{Omics Analysis}}}
+      \field{shortjournal}{Genomics, Proteomics \& Bioinformatics}
+      \field{title}{Direct {{Comparative Analyses}} of {{10X Genomics Chromium}} and {{Smart-seq2}}}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{19}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{253\bibrangedash 266}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.gpb.2020.02.005
+      \endverb
+      \verb{file}
+      \verb C:\Users\ricca\Zotero\storage\BIXD7657\Wang et al. - 2021 - Direct Comparative Analyses of 10X Genomics Chromium and Smart-seq2.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1672022921000486
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1672022921000486
+      \endverb
+      \keyw{10X,Bulk RNA-seq,Comparison,Single-cell RNA sequencing,Smart-seq2}
+    \endentry
+    \entry{VuCelllevelsomatic2019}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=13394145098b46e9c2d375b8bffc682f}{%
+           family={Vu},
+           familyi={V\bibinitperiod},
+           given={Trung\bibnamedelima Nghia},
+           giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=cbc0a0d3267c9d4578ce15a9f0c139ae}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Ha-Nam},
+           giveni={H\bibinithyphendelim N\bibinitperiod}}}%
+        {{hash=10d9cbad14a6489568befb7a3f0cc569}{%
+           family={Calza},
+           familyi={C\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e7c469ff72f1764c72b3ec81f81566d2}{%
+           family={Kalari},
+           familyi={K\bibinitperiod},
+           given={Krishna\bibnamedelima R},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=d0352f41f29c5cb6fe0a2228b4c290bc}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Liewei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2f754b8386eaccd215c5ae87adce5fa1}{%
+           family={Pawitan},
+           familyi={P\bibinitperiod},
+           given={Yudi},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ced1c68cc789d9430235ca7454b3df8}
+      \strng{fullhash}{561f468505f5da4022246c233e6af167}
+      \strng{fullhashraw}{561f468505f5da4022246c233e6af167}
+      \strng{bibnamehash}{7ced1c68cc789d9430235ca7454b3df8}
+      \strng{authorbibnamehash}{7ced1c68cc789d9430235ca7454b3df8}
+      \strng{authornamehash}{7ced1c68cc789d9430235ca7454b3df8}
+      \strng{authorfullhash}{561f468505f5da4022246c233e6af167}
+      \strng{authorfullhashraw}{561f468505f5da4022246c233e6af167}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Motivation Both single-cell RNA sequencing (scRNA-seq) and DNA sequencing (scDNA-seq) have been applied for cell-level genomic profiling. For mutation profiling, the latter seems more natural. However, the task is highly challenging due to the limited input materials from only two copies of DNA molecules, while whole-genome amplification generates biases and other technical noises. ScRNA-seq starts with a higher input amount, so generally has better data quality. There exists various methods for mutation detection from DNA sequencing, it is not clear whether these methods work for scRNA-seq data. Results Mutation detection methods developed for either bulk-cell sequencing data or scDNA-seq data do not work well for the scRNA-seq data, as they produce substantial numbers of false positives. We develop a novel and robust statistical method—called SCmut—to identify specific cells that harbor mutations discovered in bulk-cell data. Statistically SCmut controls the false positives using the 2D local false discovery rate method. We apply SCmut to several scRNA-seq datasets. In scRNA-seq breast cancer datasets SCmut identifies a number of highly confident cell-level mutations that are recurrent in many cells and consistent in different samples. In a scRNA-seq glioblastoma dataset, we discover a recurrent cell-level mutation in the PDGFRA gene that is highly correlated with a well-known in-frame deletion in the gene. To conclude, this study contributes a novel method to discover cell-level mutation information from scRNA-seq that can facilitate investigation of cell-to-cell heterogeneity. Availability and implementation The source codes and bioinformatics pipeline of SCmut are available at https://github.com/nghiavtr/SCmut. Supplementary information are available at Bioinformatics online.}
+      \field{day}{15}
+      \field{eprinttype}{pubmed}
+      \field{issn}{1367-4803}
+      \field{journaltitle}{Bioinformatics}
+      \field{month}{11}
+      \field{number}{22}
+      \field{shortjournal}{Bioinformatics}
+      \field{title}{Cell-Level Somatic Mutation Detection from Single-Cell {{RNA}} Sequencing}
+      \field{urlday}{24}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{volume}{35}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{4679\bibrangedash 4687}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1093/bioinformatics/btz288
+      \endverb
+      \verb{eprint}
+      \verb 31028395
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC6853710/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC6853710/
+      \endverb
+    \endentry
+    \entry{MarotIdentifyingcancer2024}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=c8521be62cc17b5579b43c8f9f246c7f}{%
+           family={Marot-Lassauzaie},
+           familyi={M\bibinithyphendelim L\bibinitperiod},
+           given={Valérie},
+           giveni={V\bibinitperiod}}}%
+        {{hash=50bf43bc7bcdb72a9b167a8203f5fc32}{%
+           family={Beneyto-Calabuig},
+           familyi={B\bibinithyphendelim C\bibinitperiod},
+           given={Sergi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=55d594809b077a9a76cf9aee209f2702}{%
+           family={Obermayer},
+           familyi={O\bibinitperiod},
+           given={Benedikt},
+           giveni={B\bibinitperiod}}}%
+        {{hash=612a9aa10d8d4ddbd58db15113ed9a53}{%
+           family={Velten},
+           familyi={V\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod}}}%
+        {{hash=02217a70d9320294e8509bf3870c7baf}{%
+           family={Beule},
+           familyi={B\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3a763dc97c3b7643f2efad6e41183887}{%
+           family={Haghverdi},
+           familyi={H\bibinitperiod},
+           given={Laleh},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4a181e9f7ad1d31b90fc438b26d8ccf}
+      \strng{fullhash}{4fc022a08816ac54af99edb2e47e03db}
+      \strng{fullhashraw}{4fc022a08816ac54af99edb2e47e03db}
+      \strng{bibnamehash}{a4a181e9f7ad1d31b90fc438b26d8ccf}
+      \strng{authorbibnamehash}{a4a181e9f7ad1d31b90fc438b26d8ccf}
+      \strng{authornamehash}{a4a181e9f7ad1d31b90fc438b26d8ccf}
+      \strng{authorfullhash}{4fc022a08816ac54af99edb2e47e03db}
+      \strng{authorfullhashraw}{4fc022a08816ac54af99edb2e47e03db}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Single-cell RNA sequencing (scRNA-seq) data are widely used to study cancer cell states and their heterogeneity. However, the tumour microenvironment is usually a mixture of healthy and cancerous cells and it can be difficult to fully separate these two populations based on transcriptomics alone. If available, somatic single-nucleotide variants (SNVs) observed in the scRNA-seq data could be used to identify the cancer population and match that information with the single cells’ expression profile. However, calling somatic SNVs in scRNA-seq data is a challenging task, as most variants seen in the short-read data are not somatic, but can instead be germline variants, RNA edits or transcription, sequencing, or processing errors. In addition, only variants present in actively transcribed regions for each individual cell will be seen in the data.To address these challenges, we develop CCLONE (Cancer Cell Labelling On Noisy Expression), an interpretable tool adapted to handle the uncertainty and sparsity of SNVs called from scRNA-seq data. CCLONE jointly identifies cancer clonal populations, and their associated variants. We apply CCLONE on two acute myeloid leukaemia datasets and one lung adenocarcinoma dataset and show that CCLONE captures both genetic clones and somatic events for multiple patients. These results show how CCLONE can be used to gather insight into the course of the disease and the origin of cancer cells in scRNA-seq data.Source code is available at github.com/HaghverdiLab/CCLONE.}
+      \field{day}{1}
+      \field{issn}{1367-4811}
+      \field{journaltitle}{Bioinformatics}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{Identifying Cancer Cells from Calling Single-Nucleotide Variants in {{scRNA-seq}} Data}
+      \field{urlday}{22}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{volume}{40}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{btae512}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/bioinformatics/btae512
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricca\\Zotero\\storage\\IVGN42HY\\Marot-Lassauzaie et al. - 2024 - Identifying cancer cells from calling single-nucleotide variants in scRNA-seq data.pdf;C\:\\Users\\ricca\\Zotero\\storage\\JMCUA5RI\\btae512.html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/bioinformatics/btae512
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/bioinformatics/btae512
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{MuyasDenovodetection2024}
+\endrefsection
+\endinput
+

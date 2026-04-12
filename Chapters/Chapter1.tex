@@ -21,8 +21,6 @@
 % SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Somatic SNVs Definition and Relevance}
-
 \section{Somatic SNVs: Definition and Relevance}
 
 Genetic variation is the molecular foundation of biological diversity, adaptation, and disease. 
@@ -33,12 +31,18 @@ At the broadest level, two fundamental classes of genetic variation shape phenot
 \keyword{Somatic mutations}, by contrast, do not follow Mendelian inheritance. 
 They arise during an individual's lifetime in individual somatic cells as a consequence of DNA damage or errors in DNA replication, and are propagated exclusively to the clonal descendants of the founding cell \parencite{YuGeneticvariation2024}. Because they originate in a single cell and spread only through cell division, somatic mutations are present in only a subset of an organism's cells.
 
-Genetic variants can be divided into four principal classes: \keyword{single-nucleotide variants} (SNVs), which are point substitutions at individual genomic positions; short insertions and deletions (\keyword{indels}, $<$50~bp); \keyword{structural variants} (SVs), encompassing large deletions, duplications, inversions, and translocations; and large \keyword{chromosomal abnormalities}, such as whole-chromosome gains or losses \parencite{Xureviewsomatic2018,YuGeneticvariation2024}.
+Genetic variants can be divided into four principal classes: \keyword{single-nucleotide variants} (SNVs), which are point substitutions at individual genomic positions; short insertions and deletions (\keyword{indels}, $<$50~bp); \keyword{structural variants} (SVs), encompassing large deletions, duplications, inversions, and translocations; and large \keyword{chromosomal abnormalities}, such as whole-chromosome gains or losses \parencite{Xureviewsomatic2018, YuGeneticvariation2024}.
 Among these, SNVs are the most abundant and best characterised class. The most common type of SNV, the single-nucleotide polymorphism (SNP), refers to positions at which heritable variation occurs at appreciable frequency in a population; the term SNV is broader, encompassing both germline and somatic single-base substitutions \parencite{ZouSignificanceSingleNucleotide2020}.
 
 This distinction has a direct technical consequence: because a somatic mutation is present in only a fraction of cells, it appears in sequencing data at a low \keyword{variant allele fraction} (VAF). 
-This low VAF is both the defining hallmark of somatic mutations and the core technical challenge in theri detection, as sequecing noice and artefacts can occur at comparable frequencies, making confident discrimination between signal and error non-trivial \parencite{Xureviewsomatic2018, MuyasDenovodetection2024}.
+This low VAF is both the defining hallmark of somatic mutations and the core technical challenge in their detection, as sequecing noise and artefacts can occur at comparable frequencies, making confident discrimination between signal and error non-trivial \parencite{MuyasDenovodetection2024, Xureviewsomatic2018}.
 
+Somatic SNVs arise from two broad categories of mechanism: errors introduced during DNA replication, and DNA damage that is incorrectly or incompletely repaired. 
+During each cell division, the replicative DNA polymerases (\textit{Pol}~$\delta$ and \textit{Pol}~$\varepsilon$) incorporate a small number of incorrect nucleotides that escape proofreading correction and become permanently fixed in the daughter cell's genome \parencite{ParkPOLEproofreading2019}. 
+These replication-coupled errors produce a characteristic baseline mutation rate that accumulates in proportion to the number of cell divisions a lineage has undergone. 
+
+
+Understanding the principles governing somatic SNV generation, accumulation, and detection therefore forms an essential prerequisite for the computational approaches employed in this thesis, where somatic mutations are inferred from Smart-seq2 single-cell RNA sequencing data of mouse kidney without a matched DNA reference.
 %- How do somatic mutations accumulate throughout life and what biological processes drive this?
 
 %- What molecular mechanisms generate somatic SNVs? (replication errors)
@@ -50,40 +54,70 @@ This low VAF is both the defining hallmark of somatic mutations and the core tec
 %----------------------------------------------------------------------------------------
 
 \section{Bulk and Single-Cell RNA Sequencing Approaches}
-- What does bulk RNA-seq measure, and what are its fundamental limitations for cell-level analysis?
 
-- How does scRNA-seq resolve cell-type heterogeneity that bulk RNA-seq cannot?
+% - How does scRNA-seq resolve cell-type heterogeneity that bulk RNA-seq cannot?
 
-- What are the two main scRNA-seq paradigms  droplet-based (10X) vs. plate-based (Smart-seq2)  and how do they differ technically?
+% - What are the two main scRNA-seq paradigms  droplet-based (10X) vs. plate-based (Smart-seq2)  and how do they differ technically?
+
+% - What does bulk RNA-seq measure, and what are its fundamental limitations for cell-level analysis?
+Bulk RNA-seq is an \keyword{next-generation sequencing} (NGS)-based technology used to measure the transcriptome of a cell population. Rather than resolving individual cells, it takes a whole-population approach by pooling many cells together into a single sample, yielding a combined gene expression profile. The resulting measurements therefore reflect the average expression level of each gene across all cells in the sample. 
+While powerful for detecting differential expression between conditions, this averaging fundamentally obscures cell-to-cell variation. Rare cell populations, transient states, and cell-type-specific signals are diluted or invisible in the aggregate readout \parencite{LiExploringAdditional2020, Libulksinglecell2021}.
+
+\keyword{Single-cell RNA sequencing} (scRNA-seq) resolves this limitation by capturing the transcriptome of individual cells, enabling the identification of distinct cell types, developmental trajectories, and heterogeneous expression states within a tissue. 
+Beyond gene expression, the single-cell resolution of scRNA-seq data has opened the possibility of inferring genetic variation, including somatic SNVs, directly from transcriptomic reads, repurposing expression data for genomic analysis without additional sequencing experiments \parencite{LiuSystematiccomparative2019, LiExploringAdditional2020}.
+
+Two principal scRNA-seq paradigms have emerged that differ fundamentally in their technical design. 
+Droplet-based methods, such as the widely used 10X Genomics Chromium platform, encapsulate individual cells in microfluidic droplets alongside barcoded beads, enabling highly multiplexed profiling of tens of thousands of cells per experiment. 
+However, they capture only the 3$'$ end of transcripts and rely on unique molecular identifiers (UMIs) for quantification. 
+Plate-based methods, exemplified by Smart-seq2, instead isolate individual cells into wells and generate full-length cDNA libraries across the entire transcript body \parencite{PicelFulllengthRNAseq2014, WangDirectComparative2021}.
+This full-length coverage comes at the cost of lower throughput, but provides uniform read depth across transcripts.
 
 %----------------------------------------------------------------------------------------
 % SECTION
 %----------------------------------------------------------------------------------------
 \section{Smart-seq2 as a Platform for Variant Calling}
-- Plate-based (Smart-seq2) vs. droplet-based (10X)  key differences for variant calling
 
-- Why does full-length transcript coverage in Smart-seq2 create an advantage for variant calling that 3'-end methods cannot provide?
+% - Plate-based (Smart-seq2) vs. droplet-based (10X)  key differences for variant calling
 
-- Why is Smart-seq2 an underexplored platform for variant calling compared to 10X?
+% - Why does full-length transcript coverage in Smart-seq2 create an advantage for variant calling that 3'-end methods cannot provide?
+
+% - Why is Smart-seq2 an underexplored platform for variant calling compared to 10X?
+The distinction between 3$'$-end and full-length transcript coverage is not merely a matter of quantification accuracy but it has fundamental implication for genomic variant detection.  Droplet-based methods such as 10X Genomics concentrate sequencing reads near the 3$'$ terminus of transcripts, leaving the vast majority of each transcript's sequence unobserved. 
+This severely restricts the genomic positions at which variants can be detected, as only SNVs residing close to the 3$'$ end of expressed genes will be covered by any reads \parencite{WangDirectComparative2021}. Smart-seq2, by generating full-length cDNA libraries, distributes reads across the entire transcript body, offering access to variants at any expressed position and yielding higher per-gene read depth for low-abundance transcripts \parencite{PicelFulllengthRNAseq2014, WangDirectComparative2021}.
+
+Despite these advantages, Smart-seq2 remains comparatively underexplored as a variant calling platform. 
+The field has rapidly adopted droplet-based methods such as 10X, driven by their scalability and substantially lower per-cell cost \parencite{WangDirectComparative2021}, and the majority of computational tools for scRNA-seq variant calling have been benchmarked and developed primarily on data from such platforms \parencite{LiuSystematiccomparative2019}.
+Furthermore, Smart-seq2 lacks UMIs, meaning that \keyword{Polymerase Chain Reaction} (PCR) duplicates cannot be collapsed by molecular barcode, a property that complicates the separation of true variants from amplification artefacts \parencite{PicelFulllengthRNAseq2014}. 
+Nevertheless, the uniform, full-length coverage of Smart-seq2 provides a richer substrate for variant calling than 3$'$-biased methods, making it a valuable platform for inferring somatic SNVs from transcriptomic data.
 
 %----------------------------------------------------------------------------------------
 % SECTION
 %----------------------------------------------------------------------------------------
 \section{Challenges of SNV Detection from scRNA-seq}
-- What is the technical challenge of detecting SNVs from scRNA-seq data?
+% - What is the technical challenge of detecting SNVs from scRNA-seq data?
 
-- What distinguishes single-cell variant calling from bulk variant calling computationally?
+% - What distinguishes single-cell variant calling from bulk variant calling computationally?
 
-- How does the absence of a matched normal sample complicate somatic vs. germline classification?
+% - How does the absence of a matched normal sample complicate somatic vs. germline classification?
 
+Calling SNVs from scRNA-seq data is fundamentally more challenging than from bulk or single-cell DNA sequencing. 
+Because RNA sequencing captures only the expressed fraction of the genome, variant detection is limited to transcribed regions and further restricted by variable expression levels across cells, lowly expressed genes yield insufficient read coverage for confident variant calling, and genes not expressed in a given cell produce no reads at all \parencite{LiuSystematiccomparative2019,VuCelllevelsomatic2019}. 
+This sparse and uneven coverage contrasts sharply with bulk DNA sequencing, where depth can be uniformly controlled across genomic regions of interest.
+
+Beyond coverage, scRNA-seq reads carry additional sources of noise absent in DNA sequencing. 
+Errors introduced during reverse transcription, misalignments at splice junctions, and RNA editing events can all produce apparent base changes that mimic genuine SNVs \parencite{MuyasDenovodetection2024,MarotIdentifyingcancer2024}. 
+At the single-cell level, the low number of RNA molecules per cell further amplifies stochastic noise, making it difficult to distinguish true low-frequency variants from technical artefacts without matched DNA data for reference. 
+In the absence of a paired germline sample, somatic and germline variants cannot be separated by direct comparison, requiring instead the use of population-level databases and statistical models applied across the cell population \parencite{Xureviewsomatic2018,MuyasDenovodetection2024}. 
+These constraints collectively motivate the need for dedicated computational tools designed specifically for the statistical properties of scRNA-seq data.
 
 %----------------------------------------------------------------------------------------
 % SECTION
 %----------------------------------------------------------------------------------------
-\section{Variant Calling Tools}
-- What tools were specifically designed for scRNA-seq variant calling (SComatic, Monopogen, cellsnp-lite), and what are their limitations in this context?
 
-- Why did we choose STAR and bcftools? / I Guess it's to early to Answer this questions
+\section{Variant Calling Tools}
+% - What tools were specifically designed for scRNA-seq variant calling (SComatic, Monopogen, cellsnp-lite), and what are their limitations in this context?
+
+% - Why did we choose STAR and bcftools? / I Guess it's to early to Answer this questions
 %----------------------------------------------------------------------------------------
 % SECTION
 %----------------------------------------------------------------------------------------
