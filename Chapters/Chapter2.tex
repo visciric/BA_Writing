@@ -13,38 +13,70 @@
 % Section
 %----------------------------------------------------------------------------------------
 \section{Dataset and Biological Context}
-- What dataset is primarly used and why? 
+% - What dataset is primarly used and why? 
+The dataset used was from ADISAS paper, in the study she studied the KLOTHO a paper. We've received the data because it was already available. 
+The data is from the nephron of the mice. It was primary used to detect the KLOTHO protein. 
+we've used the data due to comodity. 
 
-- How many cells, which cell types and which mouse models? 
+% - How many cells, which cell types and which mouse models? 
+The dataset was is based of 373 different cell all coming from one mouse. 
 
-- What is the source dataset, and why is it suitable as a model system for this pipeline?
+% - What is the source dataset, and why is it suitable as a model system for this pipeline?
+the source of the dataset is from the KLOTHO study. in this study it has been discussed whether Klotho protein is moderately expressed in kidney proximal tubule and moreon (DC), which includes the distal convoluted  abundant in the distal convolutitubule (DCT) and connecting tubule (CNT). However, the function of Klotho in the DC, particularly its role in sKlotho release and regulation of mineral metabolism, remains unclear.
 
-- How many cells, which cell types, which mouse models? *(brief  one paragraph)*
+% - How many cells, which cell types, which mouse models? *(brief  one paragraph)*
 
 %----------------------------------------------------------------------------------------
 % Section
 %----------------------------------------------------------------------------------------
 \section{Pipeline Overview}
+Due to the scarsity of suitable tools or pipelines found before. We've decided. The following aligner ... for the pipeline. 
 
-- How is the Nextflow pipeline structured end-to-end?
+
+The pipeline started with raw unmapped reads these files were provied as fastq files. we then have mapped the raw files to the reference genome GRCm38/mm10). 
+Additionally for the STAR aligner the GTAK files were needed these were taken from here \url{https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M25/gencode.vM25.annotation.gtf.gz} these were the annotation. 
+The annotation is quite important for STAR because it needs it due to the splice-aware nature of the aligner: STAR uses the GTF annotation to build a database of known splice junctions during index generation, enabling it to correctly map reads that span exon–exon boundaries rather than discarding them as unalignable or soft-clipping them at junctions.
+
+first we downloaded the dataset from the webpage due to high data storage this was done on the HPC with the help of a slurm script. 
+
+the data was processed with the help of a nextflow pipeline there we've decdided to use two aligners one time we've used bowtie2 secondly we've used the star alinger 
+in this pipeline we've followin steps were executed
+
+\begin{itemize}
+    \item Reads were trimmed using \texttt{fastx\_trimmer} (FASTX-Toolkit), retaining bases at positions 20 to 126 (\texttt{-f 20}, \texttt{-l 126}), removing low-quality ends from both the 5' and 3' ends of each read.
+    
+    \item Quality filtering was applied with \texttt{fastq\_quality\_filter}, retaining only reads where at least 95\% of bases (\texttt{-p 95}) had a Phred quality score $Q \geq 30$ (\texttt{-q 30}). The Phred quality score is defined as:
+    \begin{equation}
+        Q = -10 \cdot \log_{10}(P_e)
+    \end{equation}
+    where $P_e$ is the probability of an incorrect base call. A threshold of $Q = 30$ corresponds to $P_e = 10^{-3}$, i.e.\ a base call accuracy of 99.9\%.
+    
+    \item Reads were aligned to the mm10 reference genome using \texttt{STAR} (\texttt{--runMode alignReads}), with a splice junction overhang of 125 bp (\texttt{--sjdbOverhang 125}) and a suffix array index size of 14 (\texttt{--genomeSAindexNbases 14}). The genome index was pre-built (\texttt{--runMode genomeGenerate}) using the mm10 FASTA and GTF annotation. Output was produced as coordinate-sorted BAM (\texttt{--outSAMtype BAM SortedByCoordinate}) using 8 threads (\texttt{--runThreadN 8}).
+    
+    \item Variants were called using \texttt{bcftools mpileup} to compute per-position genotype likelihoods from the aligned BAM, followed by \texttt{bcftools call} (\texttt{-mv}) to retain only variant sites, outputting results in uncompressed VCF format (\texttt{-Ov}).
+\end{itemize}
+
+% - How is the Nextflow pipeline structured end-to-end?
+
+\textbf{INSERT MERMAID SCRIPT}
 
 %----------------------------------------------------------------------------------------
 % Section
 %----------------------------------------------------------------------------------------
 \section{Alignment}
-- Why was STAR chosen for alignment and why GRCm38 as reference?
+% - Why was STAR chosen for alignment and why GRCm38 as reference?
 
-- Why did we choose STAR and bcftools?
+% - Why did we choose STAR and bcftools?
 
 %----------------------------------------------------------------------------------------
 % Section
 %----------------------------------------------------------------------------------------
 \section{Variant Calling and Quality Filtering}
-- What thresholds were applied and what is the justification?
+% - What thresholds were applied and what is the justification?
 
-- How were SNVs distinguished from indels, and why focus on SNVs?
+% - How were SNVs distinguished from indels, and why focus on SNVs?
 
-- How was allele frequency calculated?
+% - How was allele frequency calculated?
 
 
 
@@ -53,9 +85,9 @@
 % Section
 %----------------------------------------------------------------------------------------
 \section{Variant Calling Matrix Construction (Not sure if necessary)}
-- How are variants (rows) and cells (columns) organised in the matrix?
+% - How are variants (rows) and cells (columns) organised in the matrix?
 
-- How were germline, somatic, and noise variants distinguished?
+% - How were germline, somatic, and noise variants distinguished?
 
 %----------------------------------------------------------------------------------------
 % Section
